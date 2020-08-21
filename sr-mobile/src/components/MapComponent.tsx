@@ -6,7 +6,7 @@ import axios from 'axios';
 
 const Map = ReactMapboxGl({
     accessToken:
-        '***REMOVED***'
+        'removed'
 });
 
 interface RoadData {
