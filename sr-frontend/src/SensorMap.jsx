@@ -120,7 +120,7 @@ export default function SensorMap() {
             </Header>
             <div style={{ width: '100%', height: '100%' }}>
                 {roadCoord && <GoogleMapReact
-                    bootstrapURLKeys={{ key: '***REMOVED***' }}
+                    bootstrapURLKeys={{ key: 'REMOVED' }}
                     defaultCenter={roadCoord}
                     defaultZoom={15}
                     distanceToMouse={() => { }}
