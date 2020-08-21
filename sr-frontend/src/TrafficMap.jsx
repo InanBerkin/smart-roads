@@ -6,7 +6,7 @@ export default function TrafficMap() {
 
         <div style={{ width: '100%', height: '100%' }}>
             <GoogleMapReact
-                bootstrapURLKeys={{ key: '***REMOVED***' }}
+                bootstrapURLKeys={{ key: 'REMOVED' }}
                 defaultCenter={{ lat: 38.424373, lng: 27.151677 }}
                 defaultZoom={15}
                 distanceToMouse={() => { }}
