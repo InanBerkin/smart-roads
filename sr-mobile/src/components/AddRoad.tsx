@@ -8,7 +8,7 @@ axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded
 
 const Map = ReactMapboxGl({
     accessToken:
-        '***REMOVED***'
+        'REMOVED'
 });
 
 interface Address {
@@ -98,7 +98,7 @@ export default function AddRoad() {
             if (latitude === 0 || longitude === 0) {
                 return;
             }
-            const { data } = await axios.get(`https://maps.googleapis.com/maps/api/geocode/json?latlng=${latitude},${longitude}&key=***REMOVED***`);
+            const { data } = await axios.get(`https://maps.googleapis.com/maps/api/geocode/json?latlng=${latitude},${longitude}&key=REMOVED`);
             let addresses: Array<Address> = data.results[0].address_components;
             addresses = addresses.filter((address) => address.types.includes('route'));
             if (addresses.length <= 0) {
