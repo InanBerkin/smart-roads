@@ -11,6 +11,10 @@ signs that are adjusted according to this data will be displayed on the sign for
 product will be powered by solar energy. Drivers can also use an application to see the traffic
 density, road conditions anywhere on their phones.
 
+<p align="center">
+<img src="screenshot.png" height="400" /> 
+  </p>
+
 # Notes
 * All parts of the project are in the relevant subfolders.
 * The circuit diagram and the photos of the circuits can be found in the Midterm and Final presentations.
