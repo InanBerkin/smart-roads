@@ -38,7 +38,7 @@ export default function RoadList() {
     return (
         <div style={{ width: '100%', height: '100%' }}>
             <GoogleMapReact
-                bootstrapURLKeys={{ key: '***REMOVED***' }}
+                bootstrapURLKeys={{ key: 'REMOVED' }}
                 defaultCenter={{ lat: 38.458883, lng: 27.196989 }}
                 defaultZoom={14}
                 distanceToMouse={() => { }}
