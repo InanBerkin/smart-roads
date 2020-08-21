@@ -190,7 +190,7 @@ export default function RoadStatus() {
     function HeaderMap({ lat, lng }) {
         return <div style={{ width: '100%', height: '250px' }}>
             <GoogleMapReact
-                bootstrapURLKeys={{ key: '***REMOVED***' }}
+                bootstrapURLKeys={{ key: 'removed' }}
                 defaultCenter={{ lat, lng }}
                 defaultZoom={15}
                 distanceToMouse={() => { }}
@@ -198,30 +198,6 @@ export default function RoadStatus() {
             />
         </div>
     }
-
-    // function TrafficCard({ lat, lng }) {
-    //     if (snappedPoints == null) {
-    //         return null;
-    //     }
-    //     function renderPolylines(map, maps) {
-    //         let geodesicPolyline = new maps.Polyline({
-    //             path: snappedPoints,
-    //         })
-    //         geodesicPolyline.setMap(map)
-    //     }
-    //     return (
-    //         <DataCard>
-    //             <GoogleMapReact
-    //                 yesIWantToUseGoogleMapApiInternals={true}
-    //                 bootstrapURLKeys={{ key: '***REMOVED***' }}
-    //                 defaultCenter={{ lat, lng }}
-    //                 defaultZoom={14}
-    //                 distanceToMouse={() => { }}
-    //                 onGoogleApiLoaded={({ map, maps }) => renderPolylines(map, maps)}
-    //                 draggable={false}
-    //             />
-    //         </DataCard>)
-    // }
 
     return (
         <>
